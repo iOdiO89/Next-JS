@@ -19,6 +19,7 @@ export default function Home() {
                 src='/images/profile.png'
                 width={470}
                 height={387}
+                alt='profile'
             />
         </div>
     </div>
