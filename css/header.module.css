@@ -1,0 +1,35 @@
+.header{
+    width: 100vw;
+    height: 86px;
+    background-color: #EFF0F3;
+    box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 95px;
+}
+.name{
+    color: #001858;
+    font-size: 36px;
+    font-weight: 600;
+}
+.blog{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color-blue);
+}
+.menu{
+    margin-right: 50px;
+    color: var(--color-black);
+    font-weight: 700;
+    font-size: 20px;
+}
+.donate{
+    padding: 10px 17px;
+    background-color: var(--color-blue);
+    border-radius: 4px;
+    color: var(--color-white);
+    font-size: 18px;
+    font-weight: 700;
+}
