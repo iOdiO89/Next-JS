@@ -1,0 +1,22 @@
+.inputcontainer{
+    display: flex;
+    gap: 20px;
+}
+.inputwrapper{
+    width: 444px;
+    height: 67px;
+    background-color: var(--color-white);
+    border-radius: 8px;
+}
+.input{
+   outline: none; 
+   padding: 21px 24px;
+   width: 444px;
+   border-radius: 8px;
+}
+.btn{
+    color: var(--color-white);
+    border-radius: 8px;
+    padding: 20px 23px;
+    background-color: var(--color-blue);
+}

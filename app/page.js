@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from '../css/home.module.css'
+import Input from '@/component/input'
 
 export default function Home() {
   return (
@@ -11,16 +12,7 @@ export default function Home() {
                 <br/>
                 Make sure you subscribe to get the latest updates
             </div>
-            <div className={styles.inputcontainer}>
-                <div className={styles.inputwrapper}>
-                    <input 
-                        type='email'
-                        className={styles.input}
-                        placeholder='Enter your email here...'
-                    />
-                </div>
-                <button className={styles.btn}>Subscribe</button>
-            </div>
+            <Input/>
         </div>
         <div>
             <Image
