@@ -7,8 +7,8 @@ export default function Header(){
     return(
         <header className={styles.header}>
             <Link href='/'>
-                <span className={styles.name}>SUNA</span>
-                <span className={styles.blog}>.blog</span>
+                <span className={styles.name}>SunA</span>
+                <span className={styles.blog}> .blog</span>
             </Link>
             <div>
                 <Link href='/' className={styles.menu}>Home</Link>
