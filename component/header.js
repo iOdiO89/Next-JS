@@ -12,7 +12,7 @@ export default function Header(){
             </Link>
             <div>
                 <Link href='/' className={styles.menu}>Home</Link>
-                <Link href='/' className={styles.menu}>About Me</Link>
+                <Link href='/aboutme' className={styles.menu}>About Me</Link>
                 <Link href='/' className={styles.donate}>Buy Me A Coffee</Link>
             </div>
         </header>
