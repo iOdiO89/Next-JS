@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
         <div>
-            <div className={styles.title}>Hi, I'm SunA<br/>Front End Dev</div>
+            <div className={styles.title}>Hi, I&apos;m SunA<br/>Front End Dev</div>
             <div className={styles.subtitle}>
                 On this blog I share tips and tricks, frameworks, projects, tutorials, etc
                 <br/>
